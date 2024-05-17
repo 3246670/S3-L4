@@ -19,7 +19,10 @@ document.addEventListener("DOMContentLoaded", function() {
       let randomNumber;
       do {
         randomNumber = Math.floor(Math.random() * 76) + 1;
-      } while (drawnNumbers.has(randomNumber));
+        if (){
+
+        }
+      } while(drawnNumbers.has(randomNumber));
       
       drawnNumbers.add(randomNumber);
       return randomNumber;
